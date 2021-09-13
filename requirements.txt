@@ -1,0 +1,5 @@
+# buggy
+conan-package-tools @ git+https://github.com/conan-io/conan-package-tools.git@204a622
+# ok
+# conan-package-tools @ git+https://github.com/conan-io/conan-package-tools.git@7eff1ff
+mock>=1.3.0, <1.4.0
