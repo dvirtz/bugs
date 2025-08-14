@@ -1,0 +1,6 @@
+{
+  "name": "github-actions-debugger-bug",
+  "scripts": {
+    "postinstall": "uv tool install no-such-package"
+  }
+}
