@@ -1,0 +1,15 @@
+{
+  "name": "playwright-har-duplicate-entries-bug",
+  "version": "1.0.0",
+  "description": "Reproduction of Playwright HAR duplicate entries issue when requests are retried",
+  "scripts": {
+    "record": "playwright test --reporter=list",
+    "replay": "cross-env REPLAY_MODE=true playwright test --reporter=list",
+    "test": "playwright test --reporter=list"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "express": "^4.18.2",
+    "cross-env": "^7.0.3"
+  }
+}
