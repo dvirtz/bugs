@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "repro:npm-folder-open",
+      "type": "npm",
+      "script": "repro:folder-open",
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "panel": "dedicated",
+      }
+    },
+    {
+      "label": "repro:shell-folder-open",
+      "type": "shell",
+      "command": "echo 'shell folderOpen task executed'",
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "panel": "dedicated",
+      }
+    }
+  ]
+}
